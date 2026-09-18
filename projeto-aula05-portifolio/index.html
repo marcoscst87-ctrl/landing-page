@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Projeto-SCTEC</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="navbar">
+        <h1 class="logo">Portifolio Dev</h1>
+        <button id="hamburguer">=</button>
+        <ul class="menu" id="menu">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#habilidade">Habilidade</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+      <div class="hero-container">
+        <p class="intro">Olá, eu sou Marcos</p>
+        <h2>Desenvolvedor Front-End</h2>
+        <p class="descricao">Criando experiências digitais com códigos</p>
+      </div>
+    </header>
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <div class="sobre-conteudo">
+        <div class="sobre-texto">
+          <p>
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria
+            tipográfica e de impressos, e vem sendo utilizado desde o século
+            XVI, quando um impressor desconhecido pegou uma bandeja de tipos e
+            os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
+            sobreviveu não só a cinco séculos, como também ao salto para a
+            editoração eletrônica, permanecendo essencialmente inalterado. Se
+            popularizou na década de 60, quando a Letraset lançou decalques
+            contendo passagens de Lorem Ipsum, e mais recentemente quando passou
+            a ser integrado a softwares de editoração eletrônica como Aldus
+            PageMaker.
+          </p>
+          <p>
+            Lorem Ipsum é simplesmente uma simulação de texto da indústria
+            tipográfica e de impressos, e vem sendo utilizado desde o século
+            XVI, quando um impressor desconhecido pegou uma bandeja de tipos e
+            os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum
+            sobreviveu não só a cinco séculos, como também ao salto para a
+            editoração eletrônica, permanecendo essencialmente inalterado. Se
+            popularizou na década de 60, quando a Letraset lançou decalques
+            contendo passagens de Lorem Ipsum, e mais recentemente quando passou
+            a ser integrado a softwares de editoração eletrônica como Aldus
+            PageMaker.
+          </p>
+        </div>
+
+        <div class="sobre-dados">
+          <div>
+            <strong>5+</strong>
+            <span>Projetos Concluídos</span>
+          </div>
+          <div>
+            <strong>1+</strong>
+            <span>Ano(s) de experiências</span>
+          </div>
+          <div>
+            <strong>4+</strong>
+            <span>Tecnologias</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projetos">
+      <h2>Meus Projetos</h2>
+      <div class="projetos-container">
+        <div class="projeto-card">
+          <img src="https://wallpapercave.com/wp/wp1877444.jpg" alt="" />
+          <h2>E-commerce</h2>
+          <p>Plataforma simpples de e-commerce com HTML, CSS e JavaScript.</p>
+          <a href="#">Ver Projeto</a>
+        </div>
+        <div class="projeto-card">
+          <img
+            src="https://wallpapercave.com/wp/wp1877444.jpg"
+            alt="Imagem do projeto"
+          />
+          <h2>Gerenciador de Tarefas</h2>
+          <p>Aplicaçâo para gerenciamento de tarefas.</p>
+          <a href="#">Ver Projeto</a>
+        </div>
+        <div class="projeto-card">
+          <img src="https://wallpapercave.com/wp/wp1877444.jpg" alt="" />
+          <h2>App de Finanças</h2>
+          <p>Aplicaçâo para gerenciamento de finanças pessoais.</p>
+          <a href="#">Ver Projeto</a>
+        </div>
+      </div>
+    </section>
+    <section id="habilidades">
+      <h2>Habilidades Técnicas</h2>
+      <p>
+        Tecnologias e ferramentas que utilizo para desenvolver soluçoes
+        completas
+      </p>
+      <div class="habilidades-lista">
+        <div class="habilidades-card">
+          <h3>HTML</h3>
+          <span>Avançado</span>
+        </div>
+        <div class="habilidades-card">
+          <h3>CSS</h3>
+          <span>Avançado</span>
+        </div>
+        <div class="habilidades-card">
+          <h3>JavaScript</h3>
+          <span>Avançado</span>
+        </div>
+      </div>
+    </section>
+    <section id="contato">
+      <h2>Entre em Contato</h2>
+      <p>
+        Tem algum projeto em mente ou quer trocxar uma ideia? Estoun sempre
+        aberto em a novas oportunidades.
+      </p>
+      <div class="contatos-lista">
+        <div class="contato-item">
+          <strong>Email</strong>
+          <span>contato@devportifolio.com</span>
+        </div>
+        <div class="contato-item">
+          <strong>Telefone</strong>
+          <span>(47)99686-5598</span>
+        </div>
+        <div class="contato-item">
+          <strong>Localização</strong>
+          <span>Jaraguá Do Sul - SC</span>
+        </div>
+      </div>
+      <div class="rede-sociais">
+        <a href="">GitHub</a>
+        <a href="">Instragram</a>
+        <a href="">Linkedin</a>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>₢ 2026 DevPortifolio</p>
+    </footer>
+    <script>
+      let button = document.getElementById("hamburguer");
+      const menu = document.getElementById("menu");
+
+      button.addEventListener("click", function () {
+        menu.classList.toggle("ativa");
+      });
+    </script>
+  </body>
+</html>
